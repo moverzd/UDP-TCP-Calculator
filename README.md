@@ -12,15 +12,15 @@
 g++ CalcServer.cpp -o server && g++ CalcClient.cpp -o client -std=c++14
 
 Starting the server via UDP protocol
-./server -u -a ip -p port`
+./server -u -a ip -p port
 
 Starting the server via TCP protocol
-./client -u -a ip -p port`
+./client -u -a ip -p port
 
 Starting the client via UDP protocol
-./server -a ip -p port`
+./server -a ip -p port
 
 Starting the client via TCP protocol
-./client -a ip -p port`
+./client -a ip -p port
 
 ```
